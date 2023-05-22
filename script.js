@@ -1,8 +1,17 @@
 let string = "";
 
+function playButtonSound() {
+    var sound = document.getElementById("buttonSound");
+    sound.playbackRate += 0.1;
+    sound.currentTime = 0; 
+    sound.play();
+  }
+  
+
 let buttony = document.querySelectorAll('.buttons');
 Array.from(buttony).forEach((buttons) => {
     buttons.addEventListener('click', (e) => {
+        playButtonSound()
         try{
         let values = e.target.value;
         if (values == '=') {
@@ -36,3 +45,4 @@ Array.from(buttony).forEach((buttons) => {
     }
     })
 })
+
