@@ -1,0 +1,45 @@
+.text-center {
+    text-align: center;
+}
+
+.container {
+    padding: 2px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.bg-green {
+    background-color: #3cf63c;
+}
+
+.bg-orange {
+    background-color: #FFA500;
+}
+
+.bg-blue {
+    background-color: #ADD8E6;
+}
+
+.bg-purple {
+    background-color: #CBC3E3;
+}
+
+.bg-red {
+    background-color: #ff504d;
+}
+
+
+i {
+    pointer-events: none;
+}

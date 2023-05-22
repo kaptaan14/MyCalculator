@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    background-color: #F8DEB3;
+    height: 100%;
+    width: 100%;
+    font-family: 'Wix Madefor Text', sans-serif;
+
+}
+
+.buttons{
+    padding: 20px;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 65px; 
+    height: 65px;
+}
+
+.btn-update{
+    padding: 20px;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 140px; 
+    height: 65px;
+    /* size: 50%; */
+
+}
+
+.row{
+    margin: 8px;
+}
+
+.result{
+    height: 80px;
+    max-width: 300px;
+    font-size: 40px;
+    padding: 20px 10px;
+    margin: 0;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+span{
+    visibility: hidden;
+}
+
+.hide{
+    visibility: hidden;
+}
+
