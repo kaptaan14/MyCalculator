@@ -6,8 +6,14 @@ Array.from(buttony).forEach((buttons) => {
         try{
         let values = e.target.value;
         if (values == '=') {
-            string = eval(string);
-            document.querySelector('input').value = string;
+            if(string == ""){
+                document.querySelector('input').value = "";
+            }
+            else{
+
+                string = eval(string);
+                document.querySelector('input').value = string;
+            }
         }
         else if (values == 'c') {
             string = "";
@@ -26,7 +32,7 @@ Array.from(buttony).forEach((buttons) => {
         string = document.querySelector('input').value;
     }
     catch{
-        document.querySelector('input').value = "";
+        document.querySelector('input').value = "Invalid";
     }
     })
 })
