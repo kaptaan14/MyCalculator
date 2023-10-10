@@ -2,7 +2,7 @@ let string = "";
 
 function playButtonSound() {
     var sound = document.getElementById("buttonSound");
-    sound.playbackRate += 0.1;
+    sound.playbackRate += 0.001;
     sound.currentTime = 0; 
     sound.play();
   }
@@ -34,7 +34,6 @@ Array.from(buttony).forEach((buttons) => {
             document.querySelector('input').value = string;
         }
         else {
-            console.log(values)
             string = string + values;
             document.querySelector('input').value = string;
         }
